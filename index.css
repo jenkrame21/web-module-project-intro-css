@@ -17,33 +17,33 @@ nav{
 }
 button.plan{
     background-color:#FF764E;
-    padding:7px;
-    padding-left:20px;
-    padding-right:20px;
-    margin:20px;
-    margin-right:70px;
+    padding:0.5%;
+    padding-left:1.8%;
+    padding-right:1.8%;
+    margin:1.5%;
+    margin-right:6%;
     border-radius:10px;
     border:none;
 }
 button.learn{
     background-color:#5ED3EB;
-    padding:7px;
-    padding-left:20px;
-    padding-right:20px;
-    margin:20px;
-    margin-left:30px;
-    margin-right:30px;
+    padding:0.5%;
+    padding-left:1.5%;
+    padding-right:1.5%;
+    margin:1.5%;
+    margin-left:3%;
+    margin-right:6%;
     border-radius:10px;
     border:none;
 }
 button.getinvolved{
     background-color:#FFCD69;
-    padding:7px;
-    padding-left:25px;
-    padding-right:25px;
-    margin:20px;
-    margin-left:70px;
-    border-radius:30%;
+    padding:0.5%;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    margin:1.5%;
+    margin-left:3%;
+    border-radius:10px;
     border:none;
 }
 div.sunrise{
