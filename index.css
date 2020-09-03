@@ -1,7 +1,7 @@
-/**{
+*{
     border: gray 1px solid;
 }
-*/
+
 nav a{
     text-decoration:none;
     color:white;
@@ -15,7 +15,7 @@ button.plan{
     background-color:#FF764E;
     margin:3%;
     margin-right:5%;
-    padding-top:0.5%;
+    padding-top:0.3%;
     padding-bottom:0.5%;
     padding-left:1.5%;
     padding-right:1.5%;
@@ -25,7 +25,7 @@ button.plan{
 button.learn{
     background-color:#5ED3EB;
     margin:2%;
-    padding-top:0.5%;
+    padding-top:0.3%;
     padding-bottom:0.5%;
     padding-left:1%;
     padding-right:1%;
@@ -36,7 +36,7 @@ button.workforus{
     background-color:#FFCD69;
     margin:2%;
     margin-left:6%;
-    padding-top:0.5%;
+    padding-top:0.3%;
     padding-bottom:0.5%;
     padding-left:25px;
     padding-right:25px;
@@ -48,6 +48,7 @@ img.sunrise{
     height:20vh;
     border-radius:200px;
     vertical-align:baseline;
+    margin-left:23%;
 }
 section.park-guide{
     text-align:center;
@@ -98,6 +99,10 @@ div.campfire-icon p{
     color:black;
     margin-left:40%;
     margin-right:50%;
+    margin-bottom:1%;
+    font-size: 0.8rem;
+    line-height:98%;
+    font-family:'Roboto Mono', monospace;
 }
 img.camper-icon{
     height:90px;
@@ -113,6 +118,9 @@ div.camper-icon p{
     color:black;
     margin-left:40%;
     margin-right:50%;
+    font-size: 0.8rem;
+    line-height:98%;
+    font-family:'Roboto Mono', monospace;
 }
 img.sunsetimg{
     width:60%;
@@ -126,7 +134,5 @@ nav.bottom-links{
     background-color:#F9E7DC;
     width:60%;
     vertical-align:baseline;
-}
-footer{
-    
+    margin-left: 20%;
 }
