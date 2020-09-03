@@ -1,6 +1,7 @@
-*{
+/**{
     border: gray 1px solid;
 }
+*/
 nav a{
     text-decoration:none;
     color:white;
@@ -12,12 +13,14 @@ nav{
 }
 button.plan{
     background-color:#FF764E;
-    margin:2%;
+    margin:3%;
+    margin-right:5%;
     padding-top:0.5%;
     padding-bottom:0.5%;
     padding-left:1.5%;
     padding-right:1.5%;
     border-radius:10px;
+    border:none;
 }
 button.learn{
     background-color:#5ED3EB;
@@ -27,15 +30,18 @@ button.learn{
     padding-left:1%;
     padding-right:1%;
     border-radius:10px;
+    border:none;
 }
 button.workforus{
     background-color:#FFCD69;
     margin:2%;
+    margin-left:6%;
     padding-top:0.5%;
     padding-bottom:0.5%;
     padding-left:25px;
     padding-right:25px;
     border-radius:10px;
+    border:none;
 }
 img.sunrise{
     display:inline-block;
@@ -51,6 +57,7 @@ h1{
     font-size:2.5rem;
     display:inline-block;
     vertical-align:baseline;
+    color:black;
 }
 section.park-guide p{
     font-family:'Roboto Mono', monospace;
@@ -59,6 +66,7 @@ section.park-guide p{
     width:50%;
     margin:0 auto;
     padding-bottom:20px;
+    color:black;
 }
 section.section-one{
     background-color:#DDB9A3;
@@ -66,8 +74,8 @@ section.section-one{
     font-family:'Roboto Mono', monospace;
     width:54%;
     margin:0 auto;
-    padding-top:0%;
-    padding-bottom:0%;
+    padding-top:0.3%;
+    padding-bottom:0.3%;
     padding-left:1%;
     padding-right:1%;
     margin-top:20px;
@@ -77,6 +85,7 @@ section.section-one p{
 }
 img.campfire-icon{
     height:90px;
+    padding-top:15px;
 }
 div.campfire-icon{
     text-align:center;
@@ -86,6 +95,9 @@ div.campfire-icon p{
     margin: auto 0;
     vertical-align:baseline;
     padding-bottom:30px;
+    color:black;
+    margin-left:40%;
+    margin-right:50%;
 }
 img.camper-icon{
     height:90px;
@@ -98,4 +110,23 @@ div.camper-icon p{
     margin: auto 0;
     vertical-align:baseline;
     padding-bottom:30px;
+    color:black;
+    margin-left:40%;
+    margin-right:50%;
+}
+img.sunsetimg{
+    width:60%;
+}
+div.sunsetimg{
+    text-align:center;
+    overflow:hidden;
+    max-height:215px;
+}
+nav.bottom-links{
+    background-color:#F9E7DC;
+    width:60%;
+    vertical-align:baseline;
+}
+footer{
+    
 }
