@@ -1,80 +1,39 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+*{
+    border: gray 1px solid;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+nav a{
+    text-decoration:none;
+    color:white;
+    font-family:'Roboto Mono', monospace;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} /*^Meyer Reset^*/
 nav{
     text-align:center;
-    color:white;
-    text-decoration:none;
+    font-size:1rem;
 }
-.plan{
+button.plan{
     background-color:#FF764E;
-    display:inline-block;
-    height:3rem;
-    margin: 5%;
-    padding: 2%;
+    margin:2%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left:1.5%;
+    padding-right:1.5%;
+    border-radius:10px;
 }
-.learn{
+button.learn{
     background-color:#5ED3EB;
-    display:inline-block;
-    height:3rem;
-    margin: 5%;
-    padding: 2%;
+    margin:2%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left:1%;
+    padding-right:1%;
+    border-radius:10px;
 }
-.workforus{
+button.workforus{
     background-color:#FFCD69;
-    display:inline-block;
-    height:3rem;
-    margin: 5%;
-    padding: 2%;   
-}
-div.sunrise img{
-    height: 30%;
-}
-section.park-guide{
-
+    margin:2%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left:25px;
+    padding-right:25px;
+    border-radius:10px;
 }
