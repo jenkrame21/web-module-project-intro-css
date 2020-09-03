@@ -37,3 +37,65 @@ button.workforus{
     padding-right:25px;
     border-radius:10px;
 }
+img.sunrise{
+    display:inline-block;
+    height:20vh;
+    border-radius:200px;
+    vertical-align:baseline;
+}
+section.park-guide{
+    text-align:center;
+}
+h1{
+    font-family:'Chelsea Market', cursive;
+    font-size:2.5rem;
+    display:inline-block;
+    vertical-align:baseline;
+}
+section.park-guide p{
+    font-family:'Roboto Mono', monospace;
+    font-size:1rem;
+    padding:0;
+    width:50%;
+    margin:0 auto;
+    padding-bottom:20px;
+}
+section.section-one{
+    background-color:#DDB9A3;
+    color:white;
+    font-family:'Roboto Mono', monospace;
+    width:54%;
+    margin:0 auto;
+    padding-top:0%;
+    padding-bottom:0%;
+    padding-left:1%;
+    padding-right:1%;
+    margin-top:20px;
+}
+section.section-one p{
+    text-align:center;
+}
+img.campfire-icon{
+    height:90px;
+}
+div.campfire-icon{
+    text-align:center;
+}
+div.campfire-icon p{
+    width:20%;
+    margin: auto 0;
+    vertical-align:baseline;
+    padding-bottom:30px;
+}
+img.camper-icon{
+    height:90px;
+}
+div.camper-icon{
+    text-align:center;
+}
+div.camper-icon p{
+    width:20%;
+    margin: auto 0;
+    vertical-align:baseline;
+    padding-bottom:30px;
+}
