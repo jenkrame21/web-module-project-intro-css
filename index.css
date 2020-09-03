@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**{
+    border: gray 1px solid;
+}*/
+div.box{
+    width:60%;
+    margin:auto;
+    padding:0;
+}
+nav a{
+    text-decoration:none;
+    color:white;
+    font-family:'Roboto Mono', monospace;
+}
+nav{
+    text-align:center;
+    font-size:1rem;
+}
+button.plan{
+    background-color:#FF764E;
+    padding:0.5%;
+    padding-left:1.8%;
+    padding-right:1.8%;
+    margin:1.5%;
+    margin-right:6%;
+    border-radius:10px;
+    border:none;
+}
+button.learn{
+    background-color:#5ED3EB;
+    padding:0.5%;
+    padding-left:1.5%;
+    padding-right:1.5%;
+    margin:1.5%;
+    margin-left:3%;
+    margin-right:6%;
+    border-radius:10px;
+    border:none;
+}
+button.getinvolved{
+    background-color:#FFCD69;
+    padding:0.5%;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    margin:1.5%;
+    margin-left:3%;
+    border-radius:10px;
+    border:none;
+}
+div.sunrise{
+    width:20%;
+    margin-right:4%;
+    display:inline-block;
+}
+img.sunrise{
+    display:inline-block;
+    height:18vh;
+    border-radius:50%;
+    vertical-align:baseline;
+    margin-right:9%;
+    margin-top:2%;
+}
+section.header-p{
+    width:38%;
+    display:inline-block;
+    text-align:center;
+}
+div.park-guide{
+    text-align:center;
+}
+h1{
+    font-family:'Chelsea Market', cursive;
+    font-size:2.5rem;
+    display:inline-block;
+    vertical-align:baseline;
+    color:black;
+    margin-bottom:2%;
+    margin-right:0;
+}
+div.park-guide p{
+    font-family:'Roboto Mono', monospace;
+    font-size:0.8rem;
+    padding-bottom:1%;
+    color:black;
+
+}
+section.section-one{
+    background-color:#DDB9A3;
+    color:white;
+    font-family:'Roboto Mono', monospace;
+    width:70%;
+    margin:0 auto;
+    padding-top:0.3%;
+    padding-bottom:0.3%;
+    padding-left:1%;
+    padding-right:1%;
+    margin-top:1%;
+    text-align:center;
+}
+img.campfire-icon{
+    max-height:7vh;
+    max-width:7vw;
+    padding-top:1%;
+    padding-bottom:0.5%;
+}
+div.campfire-icon{
+    text-align:center;
+    width:72%;
+    margin:auto;
+}
+div.campfire-icon p{
+    width:30%;
+    margin:auto;
+    vertical-align:baseline;
+    padding-bottom:3%;
+    color:black;
+    margin-bottom:1%;
+    font-size: 0.8rem;
+    line-height:98%;
+    font-family:'Roboto Mono', monospace;
+}
+img.camper-icon{
+    max-height:7vh;
+    max-width:7vw;
+}
+div.camper-icon{
+    text-align:center;
+    width:72%;
+    margin:auto;
+}
+div.camper-icon p{
+    width:30%;
+    margin:auto;
+    vertical-align:baseline;
+    padding-bottom:3%;
+    color:black;
+    font-size: 0.8rem;
+    line-height:98%;
+    font-family:'Roboto Mono', monospace;
+}
+img.sunsetimg{
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+div.sunsetimg{
+    overflow:hidden;
+    max-height:10vh;
+
+}
+footer{
+    background-color:#F9E7DC;
+    width:80%;
+    margin:auto;
+}
