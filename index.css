@@ -1,6 +1,6 @@
-*{
+/**{
     border: gray 1px solid;
-}
+}*/
 div.box{
     width:60%;
     margin:auto;
@@ -138,8 +138,11 @@ div.camper-icon p{
     font-family:'Roboto Mono', monospace;
 }
 img.sunsetimg{
-    max-width:100%;
-    height:auto;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
 }
 div.sunsetimg{
     overflow:hidden;
